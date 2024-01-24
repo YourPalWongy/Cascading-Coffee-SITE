@@ -1,0 +1,222 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: grid;
+    justify-items: center;
+    align-items: center;   
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.topbar {
+    background: linear-gradient(#000000de, #ff000000);
+    
+
+    display: grid;
+    grid-template-areas: "hTop1 hTop2 hTop3 hTop4 hTop5"
+                         "hMid1 hMid2 hMid3 hMid4 hMid5"
+                         "hEnd1 hEnd2 hEnd3 hEnd4 hEnd5";
+    grid-template-columns: 90px 50px 50fr 50px 90px;
+    grid-template-rows: 50px 50px 50px;  
+    gap: 5px 25px;
+}
+
+.header-logo {
+    display: grid;
+    grid-area: hMid2;
+    justify-items: center;
+    align-items: center;   
+}
+
+.header-logo img {
+    display: grid;
+    width: auto;
+    max-height: 50%;
+    position: absolute;
+    transition: 0.2s ease;
+  }
+
+  .header-logo:hover img {
+    transform: scale(1.2);
+  }
+
+ .header-logo img.alt {
+    opacity: 0;
+    transition: 0.2s ease;
+  }
+
+  .header-logo:hover img.alt {
+    opacity: 1;
+  }
+
+.testlogo {
+    display: grid;
+    grid-area: mid2;
+    justify-items: center;
+    align-items: center;    
+}
+
+.testlogo img {
+    position: absolute;
+    width: 20%;
+    height: auto;
+}
+
+
+aside {grid-area: leftside;}
+article {grid-area: content;}
+nav {grid-area: rightside;}
+footer {grid-area: footer;}
+
+
+
+
+
+/* This class turns elements into inline-blocks to allow easy stylisation*/
+#spacebetween {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  #colorselect {
+    src: url(/assets/fonts/BebasNeue-Regular.ttf);
+    font-family: Bebas;
+    color:white;
+  }
+
+
+
+  .header-menu {
+    color: aquamarine;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.highlight {
+    color: teal;
+    font-weight: bold;
+  }
+  a:hover {
+    color: green;
+  }
+  
+  
+
+
+
+  .beans-background {
+    background-image: url(/assets/beans-background.jpg);
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    display: block;
+  }
+
+  .parallax-blackboard {
+    position: relative;
+    background-image: url(/assets/blackboard.png);
+
+    background-size: cover;
+
+    height: 100%;
+
+    background-attachment: fixed;
+
+    background-position: center;
+
+  }
+
+  .backdrop1 {
+    display: grid;
+    grid-template-areas: "bTop1 bTop2 bTop3"
+                         "bMid1 bMid2 bMid3"
+                         "bBack1 bBack2 bBack3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    background-image: url(/assets/blackboard.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+ 
+}
+
+.coffee-overlay {
+    display: grid;
+    grid-template-areas: "coTop1";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 345px;
+    background-image: url(/assets/blackboard.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.coffee-heap {
+    display: grid;
+    grid-area: coTop1;
+    justify-items: center;
+    align-items: center;   
+}
+
+.coffee-heap img {
+    display: block;
+    margin: 0 auto;
+}
+
+.coffee-fall {
+    display: grid;
+grid-area: bMid2;
+justify-items: center;
+align-items: center;   
+}
+
+.coffee-fall img {
+display: block;
+margin: 0 auto;
+height: 300px;
+background-attachment:local;
+transition: 0.2s ease;
+transform: rotate(15deg);
+}
+
+.coffee-fall img:hover {
+transform: rotate(1deg);
+padding-left: 10px;
+transform: scale(1.2);
+}
+
+
+
+
+
+  #page-title {
+    src: url(/assets/fonts/BebasNeue-Regular.ttf);
+    font-family: Bebas;
+    color:white;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 190px;
+    text-shadow: 10px 10px #000000a1;
+  }
+  #page-sub {
+    src: url(/assets/fonts/BebasNeue-Book.ttf);
+    font-family: Bebas;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: -20px;
+    text-shadow: 5px 5px #000000a1;
+  }
