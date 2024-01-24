@@ -15,6 +15,7 @@ header {
     width: 100%;
     padding: 0;
     margin: 0;
+    z-index: 2;
 
 }
 
@@ -169,6 +170,7 @@ footer {grid-area: footer;}
     grid-area: coTop1;
     justify-items: center;
     align-items: center;   
+    
 }
 
 .coffee-heap img {
@@ -187,7 +189,6 @@ align-items: center;
 display: block;
 margin: 0 auto;
 height: 300px;
-background-attachment:local;
 transition: 0.2s ease;
 transform: rotate(15deg);
 }
