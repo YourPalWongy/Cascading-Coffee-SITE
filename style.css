@@ -122,6 +122,7 @@ footer {grid-area: footer;}
     background-attachment: fixed;
     background-position: center;
     display: block;
+    height: 800px;
   }
 
   .parallax-blackboard {
