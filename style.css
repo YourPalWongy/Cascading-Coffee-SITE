@@ -159,7 +159,7 @@ footer {grid-area: footer;}
 
     grid-template-columns: 1fr;
     grid-template-rows: 345px;
-    background-image: url(/assets/blackboard.jpg);
+    background-image: url(./assets/blackboard.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
