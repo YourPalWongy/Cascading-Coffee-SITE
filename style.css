@@ -90,7 +90,7 @@ footer {grid-area: footer;}
   }
 
   #colorselect {
-    src: url(/assets/fonts/BebasNeue-Regular.ttf);
+    src: url(./assets/fonts/BebasNeue-Regular.ttf);
     font-family: Bebas;
     color:white;
   }
@@ -116,7 +116,7 @@ footer {grid-area: footer;}
 
 
   .beans-background {
-    background-image: url(/assets/beans-background.jpg);
+    background-image: url(./assets/beans-background.jpg);
     background-size: cover;
     width: 100%;
     background-attachment: fixed;
@@ -127,7 +127,7 @@ footer {grid-area: footer;}
 
   .parallax-blackboard {
     position: relative;
-    background-image: url(/assets/blackboard.png);
+    background-image: url(./assets/blackboard.jpg);
 
     background-size: cover;
 
@@ -204,7 +204,7 @@ transform: scale(1.2);
 
 
   #page-title {
-    src: url(/assets/fonts/BebasNeue-Regular.ttf);
+    src: url(./assets/fonts/BebasNeue-Regular.ttf);
     font-family: Bebas;
     color:white;
     text-align: center;
@@ -213,7 +213,7 @@ transform: scale(1.2);
     text-shadow: 10px 10px #0000004a;
   }
   #page-sub {
-    src: url(/assets/fonts/BebasNeue-Book.ttf);
+    src: url(./assets/fonts/BebasNeue-Book.ttf);
     font-family: Bebas;
     color:white;
     text-align: center;
